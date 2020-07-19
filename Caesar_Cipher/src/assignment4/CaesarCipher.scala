@@ -15,7 +15,7 @@ object CaesarCipher {
     //Decryption function
      
      val Decryption=(c:Char,key:Int,a:String)=>
-                 a((a.indexOf(c.toUpper)-key)%a.size)
+                 a((a.indexOf(c.toUpper)-key+26)%a.size)
      
      
      val cipher=(algo:(Char,Int,String)=>
