@@ -26,7 +26,9 @@ object CaesarCipher {
            
                 
                val message="HappyBirthday";
-               val key=1;
+               println("String is :"+message);
+               print("Enter key :");
+               var key=scala.io.StdIn.readInt();
               
                 
                val encrypted_text=cipher(Encryption,message,key,alphabet);
