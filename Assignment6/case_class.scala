@@ -26,7 +26,6 @@ object case_class {
      val p5=p1.distance(p2);
      println("The distance between above two points is : "+p5);
      
-     
      println("");
      println("invert of point"); 
      println(p1);
