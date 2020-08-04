@@ -16,7 +16,6 @@ object case_class {
      println("");
      println("Move a point by a given distance dx and dy"); 
      println(p1);
-  
      val p4=p1.move(2,3);
      println("After moving "+p1+"by (2,3) is:"+p4);
      
